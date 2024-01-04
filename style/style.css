@@ -4,22 +4,24 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  color: white;
 }
 
 .layout {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  background-color: #2c2c2c;
   border-radius: 15px;
   width: 1024px;
-  height: 659px;
+  height: 80%;
+  padding: 20px;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 100px;
 }
 
 main {
@@ -39,12 +41,35 @@ footer {
 .inputArea input {
   padding: 5px;
   margin: 10px 5px;
+  font-size: 20px;
 }
 
 .inputArea button {
   padding: 5px 20px;
+  font-size: 20px;
+  background-color: rgb(204, 204, 204);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
 }
 
 .resultArea {
   display: flex;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer-text {
+  font-size: 20px;
+  padding-bottom: 10px;
 }
