@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>만 나이 계산기</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <header>
+        <h2>Simple Is Best!</h2>
+      </header>
+      <main>
+      <h1>만 나이 계산기</h1>
+      <div class="inputArea">
+        <input
+          type="text"
+          id="dateInput"
+          placeholder="yyyy-mm-dd"
+          oninput="formatDate()"
+        />
+        <button onclick="calculateAge()">계산하기</button>
+      </div>
+      <div class="resultArea">
+        <p>만 나이 :</p>
+        <p id="result"></p>
+      </main>
+      <footer>
+        <p>Mady by SongCoding</p>
+      </footer>
+        <script src="/src/app.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
